@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+}
+.main-header{
+    width: 100%;
+}
+.container{
+    padding: 0px 80px;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.left{
+    padding:10px ;
+    
+}
+.left a{
+    color: white;
+    text-decoration: none;
+}
+.right{
+    float: right;
+}
+.h-socials li{
+    position: relative;
+    bottom: 25px;
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+.h-socials a{
+    color: white;
+}
+.top{
+    background-color:#002d5b;
+    height: 40px;
+    width: 100%;
+}
+.heading{
+    float: left;
+    color: white;
+    margin-left: 10px;
+}
+.nav{
+    float: right;
+    
+}
+.navbar {
+    position: absolute;
+    top: 10%;
+    width: 85%;
+    background-color: #002d5b;
+    border: 0px solid gray;
+    height: 44px;
+    border-radius: 30px;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #4CAF50;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  .banner img{
+      top: 0%;
+      width: 100%;
+      height: auto;
+  }
+  .b-heading {
+    position: absolute;
+    top: 60%;
+    text-align: left;
+    font-size: 30px;
+    color: #002d5b;
+  }
+  .btn{
+    border: 0px solid gray;
+    width: fit-content;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 30px;
+  }
+  .b-heading button{
+    font-size: 20px;
+    color: white;
+    background: linear-gradient(to right, #4CAF50 50%, #002d5b 50%);
+    background-size: 200% 100%;
+    background-position: right bottom; 
+    transition: all .5s ease-out;
+  }
+
+  button:hover{
+    background-position: left bottom;
+  }
+  .row{
+      background-color: whitesmoke;
+  }
+  .column{
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column h3, h4{
+      color: #002d5b;
+      margin-bottom: 10px;
+  }
+  .columns img{
+      border-radius: 30px;
+      width: 250px;
+      height: 166px;
+  }
+  .columns{
+    float: left;
+    width: 23%;
+    padding: 10px;
+  }
+  .service-box{
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #002d5b;
+    border-radius: 20px;
+  }
+  
